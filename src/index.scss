@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Roboto Slab, Arial;
+}
+a {
+  color: white;
+  transition: color 0.15s;
+  &:hover {
+    color: #ff1f8f;
+  }
+}
+.mainSection {
+  display: grid;
+  gap: 2rem;
+  // min-height: 100vh;
+  margin: 0 2rem;
+  margin-bottom: 4rem;
+  &:nth-child(odd) {
+    grid-template-columns: 2fr 3fr;
+    .sectionCoverPhoto {
+      grid-column: 1;
+    }
+    .sectionText {
+      grid-column: 2;
+    }
+  }
+  &:nth-child(even) {
+    grid-template-columns: 3fr 2fr;
+    .sectionCoverPhoto {
+      grid-column: 2;
+    }
+    .sectionText {
+      grid-column: 1;
+    }
+  }
+}
+.sectionCoverPhoto {
+  grid-row: 1;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.sectionText {
+  grid-row: 1;
+  margin-top: 10%;
+}
+.sectionHeader {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.sectionContent {
+  p {
+    margin-bottom: 0.65rem;
+  }
+}
+nav {
+  display: flex;
+  position: relative;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  padding: 0.6rem;
+  padding-left: 1.4rem;
+  &.active {
+    height: 100vh;
+    .links {
+      flex-direction: column;
+    }
+    .hamburger div {
+      &:nth-child(1) {
+        transform: rotate(45deg) translate(0.3rem, 0.3rem);
+      }
+      &:nth-child(2) {
+        opacity: 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg) translate(0.3rem, -0.3rem);
+      }
+    }
+  }
+}
+.hamburger {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  div {
+    width: 2rem;
+    height: 0.2rem;
+    background-color: white;
+    transition: all 0.3s ease;
+    transform-origin: center;
+    margin-bottom: 0.22rem;
+  }
+}
+.links {
+  display: flex;
+  margin: auto;
+  &.hidden {
+    display: none;
+  }
+  a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+      text-shadow: 0.022em 0.022em #ff1f8f, -0.007em -0.007em 7px #ff1f8f, 0 0 0.7em #ff1f8f;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+  .links {
+    flex-direction: row !important;
+    margin: 0 !important;
+    display: block !important;
+    a {
+    font-size: 1.5rem;
+    margin-right: 0.35rem;
+    }
+  }
+  nav.active {
+    height: auto;
+  }
+}
