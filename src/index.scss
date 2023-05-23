@@ -52,7 +52,7 @@ h1 {
   }
 }
 .timeline {
-  padding-top: 10%;
+  padding-top: 5rem;
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -302,6 +302,9 @@ nav {
   }
 }
 @media (min-width: 900px) {
+  .sectionCoverPhoto {
+    width: 100%;
+  }
   .hamburger {
     display: none;
   }

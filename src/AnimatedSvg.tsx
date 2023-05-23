@@ -15,7 +15,7 @@ const AnimatedSvg = ({ children, className, style }: { children: JSX.Element; cl
         }
       },
       {
-        threshold: 1,
+        threshold: .8,
       }
     );
     observer.observe(svgRef.current!);
