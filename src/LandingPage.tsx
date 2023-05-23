@@ -1,8 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useContext, useEffect } from 'react';
+import { languageContext, translations } from './language';
 
 const LandingPage = () => {
   const svgRef = React.useRef<SVGSVGElement>(null);
   const [svgVisible, setSvgVisible] = React.useState(false);
+  const { language } = useContext(languageContext);
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -45,7 +48,7 @@ const LandingPage = () => {
       </div>
 
       <div className="landingPageText">
-        <h1 className="landingPageHeader">Mans ceļš uz LU</h1>
+        <h1 className="landingPageHeader">{translations[language].road_to_lu}</h1>
       </div>
     </section>
   );
