@@ -195,14 +195,20 @@ nav {
     }
     &.left {
       flex-direction: row;
+      .date span {
+        margin-right: 30%;
+      }
       .date::before {
-        margin-right: 50%;
+        right: 70%;
       }
     }
     &.right {
       flex-direction: row-reverse;
+      .date span {
+        margin-left: 30%;
+      }
       .date::before {
-        margin-left: 50%;
+        left: 70%;
       }
     }
   }
