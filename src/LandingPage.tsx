@@ -49,6 +49,7 @@ const LandingPage = () => {
 
       <div className="landingPageText">
         <h1 className="landingPageHeader">{translations[language].road_to_lu}</h1>
+        <h3>Valdis Guntis Bukalders</h3>
       </div>
     </section>
   );
