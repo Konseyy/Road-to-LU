@@ -12,24 +12,41 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Tāpat kā daudzi citi šāda vecuma bērni, es nebiju pārāk ieinteresēts domāt par nākotni, es vienkārši gribēju darīt lietas, kas
+            man šķita interesantas. Lielākoties tas sastēvēja no spēļu spēlēšana datorā, multeņu skatīšanās, spēlēšanās figūriņām un iešanas
+            ārā ar draugiem.
           </p>
           <p>
-            I am currently working as a software engineer at a startup called <a href="https://www.heydoctor.com/">HeyDoctor</a> where I am
-            building a telemedicine platform that allows patients to connect with doctors online.
+            Ar jaunu interesantu lietu es iepazinos aptuveni 2. klasē, kad pajautāju tētim, kā darbojas mājaslapas. Viņš bija apguvis kaut
+            ko līdzīgu tīmekļa dizaina kursam pirms pāris gadiem, jo viņa darbs bija saistījās ar mākslu/dizainu, tāpēc viņš man varēja
+            parādīt <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> pamatprincipus. Tas mani pārsteidza, es varēju kaut ko uzrakstīt,
+            un tas vienkārši parādījās uz ekrāna, es pat varēju ievietot attēlus un tos mainīt, kad novietoju kursoru uz tiem. Es patiešām
+            gribēju iemācīties vairāk.
+          </p>
+          <p>
+            Beigu beigās es izveidoju ļoti vienkāršu mājaslapu un izdrukāju <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> pirmkodu
+            uz papīra lapas, lai es varētu to parādīt saviem draugiem skolā. Atskatoties, tas nebija nekas īpašs, bet bērnam otrajā klasē
+            tas noteikti nebija ierasta lieta ko nest uz skolu. Bija gandarījums redzēt, kā uz to reaģē citi cilvēki.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Like many other kids, I wasnt really interested of thinking ahead in life, I just wanted to do the things that seemed
+            interesting to me. Most of the time that would be playing games games on the computer, watching cartoons, playing with actions
+            figures, and going outside with my friends.
           </p>
           <p>
-            I am currently working as a software engineer at a startup called <a href="https://www.heydoctor.com/">HeyDoctor</a> where I am
-            building a telemedicine platform that allows patients to connect with doctors online.
+            I got introduced to a new interesting thing some time close to 2nd grade, when I asked my dad how websites work. He had taken
+            something similar to a web design course a few years back, as his first jobs were art/design related, so he showed me some basic{' '}
+            <a href="https://en.wikipedia.org/wiki/HTML">HTML</a>. I was blown away, I could type something and it would just show up on the
+            screen, I could even put pictures there and change them when i put my cursor around them. I really wanted to learn more.
+          </p>
+          <p>
+            I ended up making a very basic website, and printing the source <a href="https://en.wikipedia.org/wiki/HTML">HTML</a> on a piece
+            of paper, so I could show it to my friends in school. Looking back, it was nothing special, but for a kid in second grade it was
+            definitely not a common occurence and I definitely got a kick out of seeing how other people reacted to it.
           </p>
         </>
       ),
@@ -63,16 +80,33 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Vidusskola bija pirmā reize manā dzīvē, kad skolotājs man tiešajā mācīja kaut ko saistītu ar programmēšanu, lai gan tā bija ļoti
+            vienkārša stunda, man tā patika. Iespēja uzdot jautājumus un uzreiz saņemt atbildes bija pārsteidzoši laba situācija. Kursā man
+            mācīja tikai programmēšanas pamatus, bet, tā kā skolotāja pamanīja, ka es jau pārzinu šīs tēmas, viņa laiku pa laikam piedāvāja
+            man izpildīt sarežģītākus uzdevumus no iepriekšējo gadu IT olimpiādēm, vai arī ja to nevēlējos darīt bija iespēja ātrāk tikt
+            prom to stundas, kas arī man patika.
+          </p>
+          <p>
+            Reiz es piedalījos pilsētas mēroga olimpiādē, bet man neveicās pārāk labi. Mani interesēja pats sacensību aspekts, bet veids, kā
+            tas notika, kā jāpielieto savas prasmes (jāstrādā ļoti ātri un lielākoties jārisina pilnīgi nepraktiski uzdevumi), man nebija
+            pārak saistošs. Vismaz es uzzināju kaut ko tādu, ko es nevēlos darīt nākotnē, vismaz konkrēti ar tik stingru laika limitācijas
+            aspektu, jo man likās tas pārāk ietekmēja gala rezultātu.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            High school was the first time in my life that I had actually been taught anything programming related by a teacher in person,
+            even though it was very basic I enjoyed it a lot. The opportunity to ask questions and receive answers instantly was a game
+            changer. The course only taught me programming basics, but since my teacher noticed I was already familiar with the topics, she
+            would occasionaly offer me more challening tasks to complete from prior year IT olympiads.
+          </p>
+          <p>
+            I participated in a city-wide olympiad once, but I did not do very well. I was interested in the competition aspect but the way
+            that you had to apply your skills (work very fast and mostly solve completely impractical tasks) wasn't very interesting to me.
+            At least I found out something that I don't want to do in the future, at least with the very strict time limit aspect, as it
+            seemed to influence the final result too much.
           </p>
         </>
       ),
@@ -102,24 +136,45 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Pēc vidusskolas beigšanas es biju pārliecināts, ka vēlos turpināt studēt IT, taču man vēl bija dažas citas idejas. Es apsvēru
+            arhitektūru, kā arī mašīnbūvi, bet nolēmu izvēlēties IT, jo man jau bija zināma pieredze šajā jomā.
           </p>
           <p>
-            I am currently working as a software engineer at a startup called <a href="https://www.heydoctor.com/">HeyDoctor</a> where I am
-            building a telemedicine platform that allows patients to connect with doctors online.
+            Arī došanās uz Latvijas Universitāti tobrīd nebija īsti pārliecināta izvēle. Es biju ļoti skeptiski noskaņots attiecībā uz
+            pārcelšanos no manas pilsētas, jo nebiju cilvēks, kas daudz ceļo, un arī mājās man bija universitāte (
+            <a href="https://va.lv/lv">VA</a>), kurā bija IT programma. Pēc pārdomām es nolēmu, ka pārceltiessos uz Rīgu, jo tur bija vairāk
+            izaugsmes iespēju un vairāk darba iespēju nākotnē. Apsvēru arī iespēju iestāties <a href="https://www.rtu.lv/">RTU</a>, bet,
+            izlasījis dažas atsauksmes par to internetā, pamanīju, ka daudzi cilvēki pieminēja, ka viņu kursi ir novecojuši, kas man kā
+            vienīgo reālo opciju atstāja tikai Latvijas Universitāti.
+          </p>
+          <p>
+            Šobrīd, pēc trīs gadiem pēc bakalaura programmā, es varu teikt, ka esmu ļoti apmierināts ar savu izvēli. Esmu iemācījies daudz
+            jauna lietu, esmu iepazinis daudz jaunu cilvēku un guvis personīgu izaugusmi. Palikšana dzimtajā pilsētā noteikti nebūtu bijusi
+            laba ideja, un arī no tā, ko esmu dzirdējis no draugiem, kuri mācās <a href="https://www.rtu.lv/">RTU</a>, es esmu diezgan
+            apmierināts ar savu universitātes izvēli.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            After finishing high school I was mostly certain that I want to continue studying IT, but I still had some other options in
+            mind. I was considering architecture, as well as mechanical engineering but I decided to go with IT since I already had some
+            experience with it.
           </p>
           <p>
-            I am currently working as a software engineer at a startup called <a href="https://www.heydoctor.com/">HeyDoctor</a> where I am
-            building a telemedicine platform that allows patients to connect with doctors online.
+            Going to the University of Latvia also wasn't very certain at that point in time. I was very skeptical about moving out of my
+            hometown as I wasn't really a person who traveled much and I also ahd a university (<a href="https://va.lv/en">VA</a>) back home
+            that offered an IT program. After consideration I decided that I would be moving to Riga as it had more opportunities to grow
+            and more job options in the future. I was also considering enrolling in <a href="https://www.rtu.lv/en">RTU</a>, but after
+            reading some reviews about it online, noticed a lot of people were saying that their course is outdated, which only left me with
+            the University of Latvia as a real option.
+          </p>
+          <p>
+            At this point, 3 years into my Bachelor's degree, I can say that I am very happy with my choice. I have learned a lot of new
+            things, met a lot of new people and have grown as a person. Staying in my hometown would have definitely not been a good idea,
+            and also from what I've heard from friends that attend <a href="https://www.rtu.lv/en">RTU</a>, I'm pretty happy with my choice
+            of university.
           </p>
         </>
       ),
@@ -152,16 +207,39 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Tagad pārejam uz burtisko ceļu uz LU. Pirmais solis parasti ir pamošanās. Es parasti pamostos vēlu, salīdzinot ar laiku, kad
+            vajadzētu, kas parasti nozīmē ap pulksten 10 rītā, tāpēc katru semestri man ir jālūdzas, lai man nebūtu daudz priekšmetu, kas
+            sākas 8:30, un nozīmētu, ka jāceļas ap 7:30 vai 7:00, un, lai arī kā es censtos, rīta nodarbības tomēr ir.
+          </p>
+          <p>
+            No rīta pamostoties pie pus-samaņas, es aizklupju līdz virtuvei, uzlieku tējkannu, aizstaigāju līdz vannas istabai iztīrīt zobus
+            un atkal atpakaļ uz virtuvi, lai pagatavotu sev tasi kafijas vai varbūt tējas, ja jūtos izteikti izsmalcināti. Pēc tam ar kafiju
+            rokā es dažas minūtes vienkārši skatos uz sienu vai griestiem un mēģinu pierunāt smadzenes pamosties.
+          </p>
+          <p>
+            Tad ir pienācis laiks kārtīgi saģērbties, uzvelku kreklu un džinsu bikses, sakrāmēju mantas mugursomā un dodos ārā. Man patīk
+            staigāt ar kājām, jo tas nav tik tālu, un jo īpaši gada siltajā laikā vienkārši pastaigas, izbaudot saulīti, ir patīkams prieks,
+            patīkams veids, kā pamosties.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Now moving on to the literal road to LU. The first step usually is waking up. I tend to wake up late relatively to when I
+            should, which is usually around 10am, so every semester I have to pray that I dont have many 8:30 classes which would require me
+            getting up at around 7:30 or 7 am, and no matter my efforts, the morning classes are still there.
+          </p>
+          <p>
+            After waking up in the morning barely conscious I stumble my way to the kitchen, put the kettle on, stumble to the bathroom and
+            brush my teeth, and stumble once again to the kitchen to make myself a nice cup of coffee or maybe some tea if I'm feeling
+            particularly fancy that morning. Then, coffee in hand, I spend a few minutes just staring at a wall or the ceiling trying to
+            bribe my brain to wake up.
+          </p>
+          <p>
+            Then it's time to get properly dressed, I put on a nice shirt and some jeans, pack my stuff in my backpack and head out. I like
+            walking since it's not that far, and especially in the warm times of the year just walking around basking in the sunshine is a
+            nice way to wake up.
           </p>
         </>
       ),
@@ -187,16 +265,48 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Gājiens uz universitāti <i>parasti</i> ir diezgan neinteresants. Es nedzīvoju pārāk tālu no pilsētas centra, tāpēc lielākā daļa
+            no pastaigas ir tikai gājiens pa vienu garu līkumainu ceļu. Tomēr atkarībā no dienas laika ainava noteikti pamainās.
+          </p>
+          <p>
+            Ja man ir jātiek uz agrajām rīta stundām, pirmais, ko parasti redzu, izejot no mājas, ir milzīgs sastrēgums uz manas ielas, kas
+            parasti ietver arī cilvēkus, kuri kliedz, pīpina un vispārīgi uzvedas kā agrie rīta braucēji. Kad nokļūstu centrā, ir
+            pārsteidzoši kluss, tikai daži cilvēki staigā apkārt, automašīnas ir samērā neregulāras, bet kopumā nav pārāk slikti.
+          </p>
+          <p>
+            Ja jātiek uz vēlākajām nodarbībām, sastrēgumu pie manas mājas parasti nav, bet centrā ir daudz vairāk. Arī sastrēgums pārceļas
+            no ielas blakus manai mājai uz lielo krustojumu, kas ved mani uz universitātes ceļu. Māšinas, kas stāv uz gājēju pārejām, sēžot
+            satiksmē, ir viena no lietām kas mani notracina šajās dienas vidus pastaigās.
+          </p>
+          <p>
+            Izejot vakarā parasti ir labākais laiks pastaigām, jo centrs ir ļoti aktīvs, cilvēki staigā apkārt, bet manā pilsētas daļā nav
+            tik daudz kustības, arī cilvēki, kas dodas no darba, parasti izvēlas braukt pa piekrastes ceļiem, kas atstāj manu rajonu
+            salīdzinoši mierīgu, tāpēc man patīk. Nevaru teikt, ka man patīk vakarā doties uz universitāti, bet vismaz pastaiga ir
+            izbaudāma.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            The walk to university <i>usually</i> is a prettys straight forward one. I don't live very far from the city center so most of
+            the walk is just going down one long windy road. Depending on the time of day though, the scenery definitely changes a bit.
+          </p>
+          <p>
+            If it's the early morning classes I have to get to, the first thing I usually see when I walk out of my house is a huge traffic
+            jam on my street, which also usually involves people shouting, honking and just generally being early morning commuters. When I
+            get to the center though, it's surprisingly quiet, with only a few people walking around, cars are somewhat regular but overall
+            it's not too bad.
+          </p>
+          <p>
+            If it's the later classes I have to get to, the traffic jam next to my house usually isn't there, but the center is a lot more
+            active. Also the traffic jam moves from the street next to mine to the big intersection that leads me to the university road.
+            Cars parked on the pedestrian crossings while sitting in traffic have a way of annoying me on my walks.
+          </p>
+          <p>
+            Going out in the evening is usually the best time to walk, as the center is very active, with people walking around, but my part
+            of town doesn't see that much action, people leaving their work usually prefer to take the coastal commute which leaves my area
+            relatively peaceful, so I enjoy it, not that I enjoy going to the university in the evening, but at least the walk is nice.
           </p>
         </>
       ),
@@ -247,16 +357,55 @@ export const sections: Section[] = [
       lv: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Dažreiz es pamostos īpaši vēlu, un pat īsa pastaiga līdz universitātei būtu pietiekama, lai es nokavētu nodarbības, tāpēc man ir
+            jāvēršās pie citiem līdzekļiem - trolejbusa, kas mani aizved tieši uz universitāti - slavēnā 15. trtolejbusa.
+          </p>
+          <p>
+            Vēl pirms pārcelšanās uz Rīgu par to biju dzirdējis vairākus stāstus, ka tas ir pilns ar dīvainīšiem, zagļiem un tamlīdzīgiem
+            radījumiem. Pirmās pāris reizes braucot ar to, es īsti nesapratu visu šo burzmu, tas bija vienkārši autobuss, bet aptuveni
+            piektajā braucienā, kad atgriezos mājās, pamanīju, ka manas mugursomas rāvējslēdzējs ir atvērts, esmu diezgan pārliecināts, ka
+            pirms tam to neatvēru, bet vienīgais, ko tas iekšpusē bija džemperis, un tas tur joprojām bija. Līdz pat šai dienai es īsti
+            nezinu, kas notika, bet es noteikti kļuvu uzmanīgāks braucot sabiedriskajā transportā
+          </p>
+          <p>
+            Vēl viena lieta, ko es pamanīju bija, ka cilvēkiem nepatīk ievērot noteikumus. Es sāku studijas universitātē un pārcēlos uz Rīgu
+            tieši tad, kad sākās COVID-19 pandēmija, bija masku mandāts. Cilvēkiem šajā autobusā patiešām bija vienalga. Man tas šķita
+            kaitinoši, bet nedomāju, ka es varu kaut ko pateikt vietējām babušķām, lai viņas mainītu savu viedokli par situāciju. Vienu
+            dienu tur bija tipiskaā omīte, kas vienkārši sēdēja bez maskas un runāja pa telefonu, viņai blakus stāvēja puisis. Puisis
+            vairākas reizes lūdza viņai uzvilkt masku, bet viņa atteicās, tad puisis kartīgi iepļaukāja viņai pa seju. un izkāpa nākamajā
+            pieturā, bija smieklīgi redzēt, cik daudz cilvēku nolēma uzlikt maskas atlikušajai brauciena daļai, kamēr es tur biju.
+          </p>
+          <p>
+            Man nav pārāk daudz dīvainu stāstu par šo autobusu, bet tie, kas ir, ir pietiekams iemesls, lai es to lietotu tikai kā pēdējo
+            izvēli. Arī, tas parasti ir ļoti pārpildīts, tāpēc visu braucienu jāstāv plecu pie pleca.
           </p>
         </>
       ),
       en: (
         <>
           <p>
-            I am a software engineer with a passion for building things. I have a background in computer science and have worked in a
-            variety of industries including finance, healthcare, and education.
+            Sometimes I wake up especially late and even the short walk to the university would be enough for me to miss class, so I have to
+            resort to other means - the bus that takes me straight to university - the infamous trolly #15.
+          </p>
+          <p>
+            I had heard a few stories about it before I even moved to Riga, that it was full of weirdos, thieves and the like. The first few
+            times riding on it I didn't really understand all the commotion, it was just a bus, but on approximitely my 5th ever ride, when
+            I got back home I noticed the zip on my backpack was open, I'm pretty sure I didn't open it beforehand, but the only thing it
+            had inside was a hoodie and that was still there. To this day I don't really know what happened but I did become more careful in
+            public transport as a result
+          </p>
+          <p>
+            Another thing I noticed was that people really don't like following rules. I started university and moved to Riga right as the
+            COVID-19 panedmic was kicking off, so there was a mask mandate happening. People on that bus really didn't care. I found it
+            annoying but didn't think there's really anything I could say to the local babushkas to make them change their mind on the
+            situation. One day, however, there was a typical babushka just sitting without her mask talking on the phone, and a guy standing
+            next to her. The guy asked her to put on her mask several times, but she refused, the guy then proceeded to slap her in the face
+            and get off at the next stop, it was funny seenig how many people decided to put on their masks for the rest of the journey
+            while I was there.
+          </p>
+          <p>
+            I don't have that many weird stories about the bus, but I do have a few which is enough of a reason for me to only take it as a
+            last resort. Oh, and it's usually very crowded so you have to stand shoulder to shoulder for the whole ride.
           </p>
         </>
       ),

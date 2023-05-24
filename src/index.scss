@@ -68,7 +68,6 @@ h1 {
 }
 .sectionCoverPhoto {
   grid-row: 1;
-  margin-top: 40%;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
@@ -232,7 +231,7 @@ nav {
         margin-right: 30%;
       }
       .date::before {
-        right: 70%;
+        right: 68%;
       }
     }
     &.right {
@@ -241,7 +240,7 @@ nav {
         margin-left: 30%;
       }
       .date::before {
-        left: 70%;
+        left: 68%;
       }
     }
   }
@@ -256,9 +255,14 @@ nav {
       flex-direction: column-reverse !important;
       align-items: center;
       margin-bottom: 1rem;
+      border: 1px solid white;
+      border-radius: 0.4rem;
+      padding: 1rem;
       & > :not(.date) {
         width: 100%;
         text-align: justify;
+        border: none;
+        padding: 0;
       }
       .date {
         width: 100%;
@@ -280,7 +284,7 @@ nav {
   .mainSection {
     grid-template-rows: auto auto;
     .sectionCoverPhoto {
-      margin-top: 10%;
+      margin-top: 16%;
       margin-bottom: 3rem;
       grid-row: 1;
       width: 50%;
@@ -304,6 +308,9 @@ nav {
 @media (min-width: 900px) {
   .sectionCoverPhoto {
     width: 100%;
+  }
+  .sectionText {
+    margin-top: 12rem;
   }
   .hamburger {
     display: none;

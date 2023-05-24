@@ -8,29 +8,29 @@ const entries: {
   en: string;
 }[] = [
   {
-    date: '2000.12.5',
-    lv: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
-    en: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
+    date: '2009',
+    lv: 'Šajā dzīves posmā es vēl nezināju, ko vēlos darīt nākotnē, biju tikai sīkais, kuram patika spēlēt videospēles un skatīties multfilmas. Taču es biju arī tāds, kuram patika apgūt jaunas lietas, man vienmēr interesēja mēģināt izprast, kā lietas darbojas, šajā vecumā es pirmo reizi saskāros ar programmēšanu.',
+    en: "At this point in my life I was still a kid, I didn't know what I wanted to do in life, I was just a kid who liked to play video games and watch cartoons. But I was also a kid who liked to learn new things, I was always curious about how things work, this was when I had my first encounter with programming.",
   },
   {
-    date: '2000.12.5',
-    lv: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
-    en: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
+    date: '2013',
+    lv: 'Kopā ar draugiem spēlējot populāro spēli "Minecraft", es vēlējos izveidot savu serveri. Lai to izdarītu, man bija jāapgūst dažas tīkla un skriptu veidošanas pamatprasmes, ko ar grutībām iemācījos. Man veiksmīgi izdevās izveidot savu serveri, tas bija liels sasniegums. Šī bija pirmā reize, kad es jutu, ka varu paveikt kaut ko praktisku ar šo savu jaunatrasto interesi.',
+    en: 'While playing the popular game "Minecraft" with some friends, I wanted to make my own server. This required me to learn some basic networking and scripting skills, which I did. I managed to make my own server and I was very proud of myself. This was the first time I felt like I could do something practical with this new interest of mine.',
   },
   {
-    date: '2000.12.5',
-    lv: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
-    en: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
+    date: '2015',
+    lv: 'Es ieguvu savu pirmo personālo datoru un beidzot man bija iespēja to jaukt un salikt kopā cik vien gribu, šo iespēju izmantoju vairākas reizes. Tā rezultātā es daudz iemācījos par datora komponentēm, un to darbību, kā arī ieguvu vispārēju interesi par citiem IT aspektiem ko pirms tam nepazinu.',
+    en: 'I got my first personal computer, and finally had the opportunity of dissasembling and reassembling it, which I did multiple times. I also started learning about the hardware that makes up the system and how it works, getting interested in the other aspects of IT in the process.',
   },
   {
-    date: '2000.12.5',
-    lv: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
-    en: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
+    date: '2018',
+    lv: 'Vasarā pirms vidusskolas sākšanas man nebija daudz ko darīt. Nolēmu mēģināt iziet C++ kursu, ko atradu internetā, pabeidzu to dažu nedēļu laikā un jutos tā, ka būtu atklājis jaunu hobiju.',
+    en: "The summer before starting high school I didn't have much to do. I decided to take on a C++ course that I found online, finished the course in a few weeks and felt like I discovered a new hobby.",
   },
   {
-    date: '2000.12.5',
-    lv: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
-    en: 'lorem ipsum dolor sit amet consectetur adipiscing elit',
+    date: '2020',
+    lv: 'Pēc vidusskolā pabeigtā programmēšanas pamatkursa izpētīju citus iespējamos karjeras virzienus, līdz visbeidzot nolēmu iestāties Latvijas Universitātes Datorzinātnes programmā. Šis priekš manis bija liels lēmums, jo pirms tam es nekad pat īsti nebiju apsvēris iespēju pārcelties no savas pilsētas citur, lai iegūtu augstāko izglītību.',
+    en: 'After taking a basic programming course in high school and exploring other potential career paths, I decided to enroll in the Computer Science program at the University of Latvia. This was a big decision for me as before I never even really considered moving out of my home town for higher education.',
   },
 ];
 
